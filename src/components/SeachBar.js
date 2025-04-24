@@ -4,7 +4,7 @@ function SearchBar({search, setSearch,onSearch}) {
    
     return (
     <>
-     <div className='search'>search</div>
+     <div className='search'>
         <input type="text"
         placeholder='Enter location...'
         value={search}
@@ -12,7 +12,7 @@ function SearchBar({search, setSearch,onSearch}) {
 
         <button onClick={onSearch}>Search</button>
     
-  
+  </div>
     </>
 )
 }
