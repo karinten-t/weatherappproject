@@ -2,7 +2,7 @@ import React from 'react';
 
 function Details({weather}) {
   return (
-    <div>
+    <div className="details">
          {weather?.city?.name && (
         <div>
             <p>{weather.city.name}</p>
