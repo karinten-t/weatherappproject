@@ -3,8 +3,8 @@ import React from 'react';
 function SearchBar({search, setSearch,onSearch}) {
    
     return (
-    <>
-     <div className='search'>
+    <div className='search' >
+     <div >
         <input type="text"
         placeholder='Enter location...'
         value={search}
@@ -13,7 +13,7 @@ function SearchBar({search, setSearch,onSearch}) {
         <button onClick={onSearch}>Search</button>
     
   </div>
-    </>
+    </div>
 )
 }
 
