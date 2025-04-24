@@ -3,7 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+.header{
+  text-align: center;
+  color: white;
+  padding: 20px;
+  background-color: rgb(255, 180, 82);
+}
 
+.header h1{
+  margin: 0;
+  font-size: large;
+}
 
 body {
   font-family: 'Arial', sans-serif;
