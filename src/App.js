@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import SearchBar from './components/SeachBar';
 import DetailArea from './components/DetailArea';
+import Header from '.components/Header';
 
 const API = 'e71d7b8ef275c89a7b08ea95b391c447';
 
@@ -30,6 +31,7 @@ function App() {
 
     return (
         <>
+        <Header />
             <SearchBar search={search} setSearch={setSearch} onSearch={searching} />
             {error && <p className="error-message">{error}</p>}
             <DetailArea weather={weather} />
